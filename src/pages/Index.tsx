@@ -140,8 +140,8 @@ const Index = () => {
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div>
                 <img 
-                  src="/img/030b07e0-c3ab-4825-ad2a-9c2a4caaa7a6.jpg" 
-                  alt="Куб слов 24 буквы" 
+                  src="https://cdn.poehali.dev/files/15ec7a72-7d76-4a60-bcb2-3c137d3d1533.jpg" 
+                  alt="Игра Слово за слово - фасовочный куб из 25 букв" 
                   className="w-full rounded-lg shadow-lg"
                 />
               </div>

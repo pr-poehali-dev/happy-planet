@@ -35,7 +35,7 @@ const Index = () => {
     { icon: "Search", title: "24 буквы в кубе", desc: "Ищите слова в кубе из 24 букв" },
     { icon: "Users", title: "15 участников", desc: "Дружная команда единомышленников" },
     { icon: "Zap", title: "Клановые множители", desc: "Увеличивайте очки для команды" },
-    { icon: "MessageCircle", title: "WhatsApp чат", desc: "Общение и обмен советами" }
+    { icon: "MessageCircle", title: "Чат", desc: "Общение и обмен советами" }
   ];
 
   const clanValues = [
@@ -97,23 +97,19 @@ const Index = () => {
             
             <div className="flex flex-wrap justify-center gap-3 mb-8">
               <Badge variant="outline" className="px-4 py-2">
-                <Icon name="Smartphone" size={16} className="mr-2" />
-                Мобильная версия
-              </Badge>
-              <Badge variant="outline" className="px-4 py-2">
                 <Icon name="Target" size={16} className="mr-2" />
                 КЗ Грааль Сейф
               </Badge>
               <Badge variant="outline" className="px-4 py-2">
                 <Icon name="Users" size={16} className="mr-2" />
-                15/25 игроков
+                15/40 игроков
               </Badge>
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="px-8 py-3 font-medium">
                 <Icon name="MessageCircle" size={20} className="mr-2" />
-                WhatsApp чат
+                Чат
               </Button>
               <Button variant="outline" size="lg" className="px-8 py-3 font-medium">
                 <Icon name="Info" size={20} className="mr-2" />
@@ -274,7 +270,7 @@ const Index = () => {
                 <div className="flex items-center space-x-3">
                   <Icon name="MessageCircle" size={24} className="text-primary" />
                   <div>
-                    <h3 className="font-semibold">WhatsApp чат</h3>
+                    <h3 className="font-semibold">Чат</h3>
                     <p className="text-sm text-muted-foreground">Общение и советы</p>
                   </div>
                 </div>
